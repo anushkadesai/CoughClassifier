@@ -1,0 +1,591 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9C19FDE1224C4BD100EC9C68 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C19FDE0224C4BD100EC9C68 /* AppDelegate.swift */; };
+		9C19FDE3224C4BD100EC9C68 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C19FDE2224C4BD100EC9C68 /* ViewController.swift */; };
+		9C19FDE6224C4BD100EC9C68 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C19FDE4224C4BD100EC9C68 /* Main.storyboard */; };
+		9C19FDE8224C4BD300EC9C68 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9C19FDE7224C4BD300EC9C68 /* Assets.xcassets */; };
+		9C19FDEB224C4BD300EC9C68 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C19FDE9224C4BD300EC9C68 /* LaunchScreen.storyboard */; };
+		9C19FDF6224C4BD300EC9C68 /* CoughClassifierTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C19FDF5224C4BD300EC9C68 /* CoughClassifierTests.swift */; };
+		9C19FE01224C4BD300EC9C68 /* CoughClassifierUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C19FE00224C4BD300EC9C68 /* CoughClassifierUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9C19FDF2224C4BD300EC9C68 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9C19FDD5224C4BD100EC9C68 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9C19FDDC224C4BD100EC9C68;
+			remoteInfo = CoughClassifier;
+		};
+		9C19FDFD224C4BD300EC9C68 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9C19FDD5224C4BD100EC9C68 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9C19FDDC224C4BD100EC9C68;
+			remoteInfo = CoughClassifier;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9C19FDDD224C4BD100EC9C68 /* CoughClassifier.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoughClassifier.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C19FDE0224C4BD100EC9C68 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9C19FDE2224C4BD100EC9C68 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9C19FDE5224C4BD100EC9C68 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9C19FDE7224C4BD300EC9C68 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9C19FDEA224C4BD300EC9C68 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9C19FDEC224C4BD300EC9C68 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9C19FDF1224C4BD300EC9C68 /* CoughClassifierTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoughClassifierTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C19FDF5224C4BD300EC9C68 /* CoughClassifierTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoughClassifierTests.swift; sourceTree = "<group>"; };
+		9C19FDF7224C4BD300EC9C68 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9C19FDFC224C4BD300EC9C68 /* CoughClassifierUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoughClassifierUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C19FE00224C4BD300EC9C68 /* CoughClassifierUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoughClassifierUITests.swift; sourceTree = "<group>"; };
+		9C19FE02224C4BD300EC9C68 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9C19FDDA224C4BD100EC9C68 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C19FDEE224C4BD300EC9C68 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C19FDF9224C4BD300EC9C68 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9C19FDD4224C4BD100EC9C68 = {
+			isa = PBXGroup;
+			children = (
+				9C19FDDF224C4BD100EC9C68 /* CoughClassifier */,
+				9C19FDF4224C4BD300EC9C68 /* CoughClassifierTests */,
+				9C19FDFF224C4BD300EC9C68 /* CoughClassifierUITests */,
+				9C19FDDE224C4BD100EC9C68 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9C19FDDE224C4BD100EC9C68 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9C19FDDD224C4BD100EC9C68 /* CoughClassifier.app */,
+				9C19FDF1224C4BD300EC9C68 /* CoughClassifierTests.xctest */,
+				9C19FDFC224C4BD300EC9C68 /* CoughClassifierUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9C19FDDF224C4BD100EC9C68 /* CoughClassifier */ = {
+			isa = PBXGroup;
+			children = (
+				9C19FDE0224C4BD100EC9C68 /* AppDelegate.swift */,
+				9C19FDE2224C4BD100EC9C68 /* ViewController.swift */,
+				9C19FDE4224C4BD100EC9C68 /* Main.storyboard */,
+				9C19FDE7224C4BD300EC9C68 /* Assets.xcassets */,
+				9C19FDE9224C4BD300EC9C68 /* LaunchScreen.storyboard */,
+				9C19FDEC224C4BD300EC9C68 /* Info.plist */,
+			);
+			path = CoughClassifier;
+			sourceTree = "<group>";
+		};
+		9C19FDF4224C4BD300EC9C68 /* CoughClassifierTests */ = {
+			isa = PBXGroup;
+			children = (
+				9C19FDF5224C4BD300EC9C68 /* CoughClassifierTests.swift */,
+				9C19FDF7224C4BD300EC9C68 /* Info.plist */,
+			);
+			path = CoughClassifierTests;
+			sourceTree = "<group>";
+		};
+		9C19FDFF224C4BD300EC9C68 /* CoughClassifierUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9C19FE00224C4BD300EC9C68 /* CoughClassifierUITests.swift */,
+				9C19FE02224C4BD300EC9C68 /* Info.plist */,
+			);
+			path = CoughClassifierUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9C19FDDC224C4BD100EC9C68 /* CoughClassifier */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9C19FE05224C4BD300EC9C68 /* Build configuration list for PBXNativeTarget "CoughClassifier" */;
+			buildPhases = (
+				9C19FDD9224C4BD100EC9C68 /* Sources */,
+				9C19FDDA224C4BD100EC9C68 /* Frameworks */,
+				9C19FDDB224C4BD100EC9C68 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CoughClassifier;
+			productName = CoughClassifier;
+			productReference = 9C19FDDD224C4BD100EC9C68 /* CoughClassifier.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9C19FDF0224C4BD300EC9C68 /* CoughClassifierTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9C19FE08224C4BD300EC9C68 /* Build configuration list for PBXNativeTarget "CoughClassifierTests" */;
+			buildPhases = (
+				9C19FDED224C4BD300EC9C68 /* Sources */,
+				9C19FDEE224C4BD300EC9C68 /* Frameworks */,
+				9C19FDEF224C4BD300EC9C68 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9C19FDF3224C4BD300EC9C68 /* PBXTargetDependency */,
+			);
+			name = CoughClassifierTests;
+			productName = CoughClassifierTests;
+			productReference = 9C19FDF1224C4BD300EC9C68 /* CoughClassifierTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9C19FDFB224C4BD300EC9C68 /* CoughClassifierUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9C19FE0B224C4BD300EC9C68 /* Build configuration list for PBXNativeTarget "CoughClassifierUITests" */;
+			buildPhases = (
+				9C19FDF8224C4BD300EC9C68 /* Sources */,
+				9C19FDF9224C4BD300EC9C68 /* Frameworks */,
+				9C19FDFA224C4BD300EC9C68 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9C19FDFE224C4BD300EC9C68 /* PBXTargetDependency */,
+			);
+			name = CoughClassifierUITests;
+			productName = CoughClassifierUITests;
+			productReference = 9C19FDFC224C4BD300EC9C68 /* CoughClassifierUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9C19FDD5224C4BD100EC9C68 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "Anushka Desai";
+				TargetAttributes = {
+					9C19FDDC224C4BD100EC9C68 = {
+						CreatedOnToolsVersion = 10.2;
+					};
+					9C19FDF0224C4BD300EC9C68 = {
+						CreatedOnToolsVersion = 10.2;
+						TestTargetID = 9C19FDDC224C4BD100EC9C68;
+					};
+					9C19FDFB224C4BD300EC9C68 = {
+						CreatedOnToolsVersion = 10.2;
+						TestTargetID = 9C19FDDC224C4BD100EC9C68;
+					};
+				};
+			};
+			buildConfigurationList = 9C19FDD8224C4BD100EC9C68 /* Build configuration list for PBXProject "CoughClassifier" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9C19FDD4224C4BD100EC9C68;
+			productRefGroup = 9C19FDDE224C4BD100EC9C68 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9C19FDDC224C4BD100EC9C68 /* CoughClassifier */,
+				9C19FDF0224C4BD300EC9C68 /* CoughClassifierTests */,
+				9C19FDFB224C4BD300EC9C68 /* CoughClassifierUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9C19FDDB224C4BD100EC9C68 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C19FDEB224C4BD300EC9C68 /* LaunchScreen.storyboard in Resources */,
+				9C19FDE8224C4BD300EC9C68 /* Assets.xcassets in Resources */,
+				9C19FDE6224C4BD100EC9C68 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C19FDEF224C4BD300EC9C68 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C19FDFA224C4BD300EC9C68 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9C19FDD9224C4BD100EC9C68 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C19FDE3224C4BD100EC9C68 /* ViewController.swift in Sources */,
+				9C19FDE1224C4BD100EC9C68 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C19FDED224C4BD300EC9C68 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C19FDF6224C4BD300EC9C68 /* CoughClassifierTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C19FDF8224C4BD300EC9C68 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C19FE01224C4BD300EC9C68 /* CoughClassifierUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9C19FDF3224C4BD300EC9C68 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9C19FDDC224C4BD100EC9C68 /* CoughClassifier */;
+			targetProxy = 9C19FDF2224C4BD300EC9C68 /* PBXContainerItemProxy */;
+		};
+		9C19FDFE224C4BD300EC9C68 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9C19FDDC224C4BD100EC9C68 /* CoughClassifier */;
+			targetProxy = 9C19FDFD224C4BD300EC9C68 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9C19FDE4224C4BD100EC9C68 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9C19FDE5224C4BD100EC9C68 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9C19FDE9224C4BD300EC9C68 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9C19FDEA224C4BD300EC9C68 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9C19FE03224C4BD300EC9C68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9C19FE04224C4BD300EC9C68 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9C19FE06224C4BD300EC9C68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 953355RZ7R;
+				INFOPLIST_FILE = CoughClassifier/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = t.CoughClassifier;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9C19FE07224C4BD300EC9C68 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 953355RZ7R;
+				INFOPLIST_FILE = CoughClassifier/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = t.CoughClassifier;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		9C19FE09224C4BD300EC9C68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 953355RZ7R;
+				INFOPLIST_FILE = CoughClassifierTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = t.CoughClassifierTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CoughClassifier.app/CoughClassifier";
+			};
+			name = Debug;
+		};
+		9C19FE0A224C4BD300EC9C68 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 953355RZ7R;
+				INFOPLIST_FILE = CoughClassifierTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = t.CoughClassifierTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CoughClassifier.app/CoughClassifier";
+			};
+			name = Release;
+		};
+		9C19FE0C224C4BD300EC9C68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 953355RZ7R;
+				INFOPLIST_FILE = CoughClassifierUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = t.CoughClassifierUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CoughClassifier;
+			};
+			name = Debug;
+		};
+		9C19FE0D224C4BD300EC9C68 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 953355RZ7R;
+				INFOPLIST_FILE = CoughClassifierUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = t.CoughClassifierUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CoughClassifier;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9C19FDD8224C4BD100EC9C68 /* Build configuration list for PBXProject "CoughClassifier" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9C19FE03224C4BD300EC9C68 /* Debug */,
+				9C19FE04224C4BD300EC9C68 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9C19FE05224C4BD300EC9C68 /* Build configuration list for PBXNativeTarget "CoughClassifier" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9C19FE06224C4BD300EC9C68 /* Debug */,
+				9C19FE07224C4BD300EC9C68 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9C19FE08224C4BD300EC9C68 /* Build configuration list for PBXNativeTarget "CoughClassifierTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9C19FE09224C4BD300EC9C68 /* Debug */,
+				9C19FE0A224C4BD300EC9C68 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9C19FE0B224C4BD300EC9C68 /* Build configuration list for PBXNativeTarget "CoughClassifierUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9C19FE0C224C4BD300EC9C68 /* Debug */,
+				9C19FE0D224C4BD300EC9C68 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9C19FDD5224C4BD100EC9C68 /* Project object */;
+}
