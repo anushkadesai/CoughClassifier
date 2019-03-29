@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		9C19FDE1224C4BD100EC9C68 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C19FDE0224C4BD100EC9C68 /* AppDelegate.swift */; };
-		9C19FDE3224C4BD100EC9C68 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C19FDE2224C4BD100EC9C68 /* ViewController.swift */; };
+		9C19FDE3224C4BD100EC9C68 /* RecordSoundsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C19FDE2224C4BD100EC9C68 /* RecordSoundsViewController.swift */; };
 		9C19FDE6224C4BD100EC9C68 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C19FDE4224C4BD100EC9C68 /* Main.storyboard */; };
 		9C19FDE8224C4BD300EC9C68 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9C19FDE7224C4BD300EC9C68 /* Assets.xcassets */; };
 		9C19FDEB224C4BD300EC9C68 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C19FDE9224C4BD300EC9C68 /* LaunchScreen.storyboard */; };
@@ -36,7 +36,7 @@
 /* Begin PBXFileReference section */
 		9C19FDDD224C4BD100EC9C68 /* CoughClassifier.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoughClassifier.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9C19FDE0224C4BD100EC9C68 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		9C19FDE2224C4BD100EC9C68 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9C19FDE2224C4BD100EC9C68 /* RecordSoundsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordSoundsViewController.swift; sourceTree = "<group>"; };
 		9C19FDE5224C4BD100EC9C68 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9C19FDE7224C4BD300EC9C68 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9C19FDEA224C4BD300EC9C68 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -98,7 +98,7 @@
 			isa = PBXGroup;
 			children = (
 				9C19FDE0224C4BD100EC9C68 /* AppDelegate.swift */,
-				9C19FDE2224C4BD100EC9C68 /* ViewController.swift */,
+				9C19FDE2224C4BD100EC9C68 /* RecordSoundsViewController.swift */,
 				9C19FDE4224C4BD100EC9C68 /* Main.storyboard */,
 				9C19FDE7224C4BD300EC9C68 /* Assets.xcassets */,
 				9C19FDE9224C4BD300EC9C68 /* LaunchScreen.storyboard */,
@@ -193,6 +193,7 @@
 				TargetAttributes = {
 					9C19FDDC224C4BD100EC9C68 = {
 						CreatedOnToolsVersion = 10.2;
+						LastSwiftMigration = 1020;
 					};
 					9C19FDF0224C4BD300EC9C68 = {
 						CreatedOnToolsVersion = 10.2;
@@ -256,7 +257,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9C19FDE3224C4BD100EC9C68 /* ViewController.swift in Sources */,
+				9C19FDE3224C4BD100EC9C68 /* RecordSoundsViewController.swift in Sources */,
 				9C19FDE1224C4BD100EC9C68 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -432,6 +433,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 953355RZ7R;
 				INFOPLIST_FILE = CoughClassifier/Info.plist;
@@ -441,6 +443,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = t.CoughClassifier;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "CoughClassifier/CoughClassifier-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -450,6 +454,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 953355RZ7R;
 				INFOPLIST_FILE = CoughClassifier/Info.plist;
@@ -459,6 +464,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = t.CoughClassifier;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "CoughClassifier/CoughClassifier-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
